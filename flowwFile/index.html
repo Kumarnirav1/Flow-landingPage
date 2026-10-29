@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Flowly – Plan your work, finish it faster</title>
+<link rel="icon" href="images/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a href="#home" class="logo"><img src="images/logo.svg" alt="" width="28" height="28"> Flowly</a>
+    <ul class="links" id="links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a class="btn btn-primary" href="#signup" style="padding:.5rem 1.1rem">Get started</a></li>
+    </ul>
+    <div style="display:flex;gap:.5rem">
+      <button class="icon-btn" id="theme" aria-label="Toggle dark mode">🌓</button>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+  <section class="hero">
+    <div class="wrap">
+      <h1>Plan your work.<br>Finish it faster.</h1>
+      <p>Flowly turns scattered to-dos into a clear plan, so your team always knows what’s next.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#signup">Start free</a>
+        <a class="btn btn-ghost" href="#how">See how it works</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>Everything you need</h2>
+      <p class="sub">Simple tools that stay out of your way.</p>
+      <div class="grid">
+        <div class="card"><div class="ico">⚡</div><h3>Quick capture</h3><p>Add tasks in seconds from any device.</p></div>
+        <div class="card"><div class="ico">📅</div><h3>Smart planning</h3><p>Drag tasks into a weekly view that fits your time.</p></div>
+        <div class="card"><div class="ico">👥</div><h3>Team sharing</h3><p>Share boards and keep everyone in sync.</p></div>
+        <div class="card"><div class="ico">📱</div><h3>Mobile ready</h3><p>Looks and works great on every screen size.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="alt">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p class="sub">Three steps from chaos to calm.</p>
+      <div class="grid">
+        <div class="card step"><b>1</b><h3>Create a board</h3><p>Name your project and invite teammates.</p></div>
+        <div class="card step"><b>2</b><h3>Add your tasks</h3><p>Dump everything in; sort it out later.</p></div>
+        <div class="card step"><b>3</b><h3>Get it done</h3><p>Follow your plan and tick things off.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Questions, answered</h2>
+      <div class="faq" id="faqList">
+        <button aria-expanded="false">Is Flowly free? <span>+</span></button>
+        <div class="ans">Yes, the starter plan is free for individuals and small teams.</div>
+        <button aria-expanded="false">Does it work on my phone? <span>+</span></button>
+        <div class="ans">Absolutely. The layout adapts to any screen from phones to desktops.</div>
+        <button aria-expanded="false">Can I cancel anytime? <span>+</span></button>
+        <div class="ans">Yes. There are no contracts or hidden fees.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="signup" class="signup alt">
+    <div class="wrap">
+      <h2>Ready to get started?</h2>
+      <p class="sub" style="margin-bottom:0">Join free. No credit card needed.</p>
+      <form id="form" novalidate>
+        <input type="email" id="email" placeholder="you@example.com" aria-label="Email address" required>
+        <button class="btn btn-primary" type="submit">Sign up</button>
+      </form>
+      <div id="msg" role="status"></div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© 2026 Flowly. All rights reserved.</div></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
