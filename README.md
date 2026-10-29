@@ -2,8 +2,6 @@
 
 A responsive landing page built with plain HTML, CSS and JavaScript. No frameworks or libraries.
 
-**Live demo:** [add your GitHub Pages link here]
-
 <img width="1460" height="778" alt="image" src="https://github.com/user-attachments/assets/5bfd1e46-267f-498c-a49c-bcfcf01a6f55" />
 
 <img width="1470" height="779" alt="image" src="https://github.com/user-attachments/assets/820c504f-e5a2-4512-8720-fe3d837fab1d" />
@@ -51,4 +49,4 @@ landing-page/
 
 ## Author
 
-[Kumar Nirav] – [GitHub link] · [www.linkedin.com/in/kumar-nirav-995946325]
+[Kumar Nirav] – [[GitHub link](https://github.com/Kumarnirav1)] · [www.linkedin.com/in/kumar-nirav-995946325]
